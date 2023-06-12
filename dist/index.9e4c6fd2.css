@@ -1,0 +1,164 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.logo {
+  height: 120px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.header {
+  background-color: #0ff;
+  border: 1px solid #000;
+  justify-content: space-between;
+  margin: 10px;
+  display: flex;
+}
+
+.nav-items > ul {
+  justify-content: center;
+  font-size: 30px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.restaurant-list {
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  width: 200px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: -1px 5px 10px 5px #2a2a2a33;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card > span {
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  display: flex;
+}
+
+.card > span > h4 {
+  font-size: medium;
+}
+
+.card > span > h4:first-child {
+  color: #fff;
+  background-color: #13b001;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 5px;
+  display: flex;
+}
+
+.card > span > h4:first-child .fa-star {
+  padding: 0 10px 3px 0;
+  font-size: small;
+}
+
+.search-container {
+  text-align: center;
+  max-width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.search-container .search-input {
+  width: 40%;
+  box-sizing: border-box;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #aabcca;
+  border-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  padding: 14px 15px 14px 20px;
+  box-shadow: 1px 2px 4px #00000014;
+}
+
+.search-container .search-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0768b3;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  margin-left: -4px;
+  padding: 15px 22px;
+  box-shadow: 1px 2px 4px #00000014;
+}
+
+.footer {
+  width: auto;
+  text-align: center;
+  background-color: #01a390;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px 10px;
+  box-shadow: -1px 4px 20px 14px #0003;
+}
+
+.footer > i {
+  padding: 0 5px;
+  font-size: smaller;
+}
+
+.fa-heart {
+  color: #8b0000;
+}
+
+.footer > strong {
+  padding-left: 5px;
+}
+
+.footer > strong > span {
+  color: #cb3600;
+}
+
+.Shimmer-card {
+  width: 200px;
+  height: 400px;
+  background-color: #28c19e;
+  margin: 20px;
+}
+
+.Shimmer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.Login {
+  cursor: pointer;
+  background-color: orange;
+  padding: 20px;
+}
+
+.filter {
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
